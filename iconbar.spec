@@ -1,10 +1,11 @@
 Summary:	EFL-enabled iconbar
+Summary(pl):	Pasek ikon oparty na EFL
 Name:		iconbar
 Version:	0.9.1
 %define _snap	20050105
 Release:	0.%{_snap}.0.1
 License:	BSD
-Group:		X11/Window Managers
+Group:		X11/Window Managers/Tools
 #Source0:	http://dl.sourceforge.net/enlightenment/%{name}-%{version}.tar.gz
 Source0:	ftp://ftp.sparky.homelinux.org/pub/e17/%{name}-%{version}-%{_snap}.tar.gz
 # Source0-md5:	0de760614558418831ba42ed0dcdbc79
@@ -22,6 +23,14 @@ its icons. This allows for all sorts of animation and other effects.
 As of now, the included themes mimic the old iconbar behavior. Expect
 to see themes taking advantage of Edje's capabilities in the future.
 
+%description -l pl
+Jest to samodzielny pasek ikon oparty na pasku ikon e17 zrobionym
+przez raster i rephorm. W wersji 0.5 pasek ikon u¿ywa Edje zarówno dla
+motywu, jak i ikon. Pozwala to na wszelkie rodzaje animacji i innych
+efektów. Jak na razie za³±czone motywy na¶laduj± stare zachowanie
+paska ikon, ale w przysz³o¶ci nale¿y siê spodziewaæ motywów
+wykorzystuj±cych przewagê mo¿liwo¶ci Edje.
+
 %prep
 %setup -q -n %{name}
 
@@ -36,6 +45,7 @@ to see themes taking advantage of Edje's capabilities in the future.
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
