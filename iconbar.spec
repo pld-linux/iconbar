@@ -54,6 +54,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS COPYING INSTALL README TODO ChangeLog
+%doc README TODO
 %attr(755,root,root) %{_bindir}/iconbar
 %{_datadir}/%{name}
