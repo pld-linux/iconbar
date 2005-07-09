@@ -2,13 +2,13 @@ Summary:	EFL-enabled iconbar
 Summary(pl):	Pasek ikon oparty na EFL
 Name:		iconbar
 Version:	0.9.1
-%define _snap	20050105
+%define _snap	20050701
 Release:	0.%{_snap}.0.1
 License:	BSD
 Group:		X11/Window Managers/Tools
 #Source0:	http://dl.sourceforge.net/enlightenment/%{name}-%{version}.tar.gz
-Source0:	ftp://ftp.sparky.homelinux.org/pub/e17/%{name}-%{version}-%{_snap}.tar.gz
-# Source0-md5:	0de760614558418831ba42ed0dcdbc79
+Source0:	ftp://ftp.sparky.homelinux.org/snaps/enli/e17/apps/%{name}-%{_snap}.tar.gz
+# Source0-md5:	2228eff12f92d39785fdc89efb27975a
 URL:		http://enlightenment.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
