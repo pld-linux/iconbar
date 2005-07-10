@@ -7,7 +7,7 @@ Release:	0.%{_snap}.0.1
 License:	BSD
 Group:		X11/Window Managers/Tools
 #Source0:	http://dl.sourceforge.net/enlightenment/%{name}-%{version}.tar.gz
-Source0:	ftp://ftp.sparky.homelinux.org/snaps/enli/e17/apps/%{name}-%{_snap}.tar.gz
+Source0:	http://sparky.homelinux.org/snaps/enli/e17/apps/%{name}-%{_snap}.tar.gz
 # Source0-md5:	2228eff12f92d39785fdc89efb27975a
 URL:		http://enlightenment.org/
 BuildRequires:	autoconf
