@@ -1,5 +1,5 @@
 Summary:	EFL-enabled iconbar
-Summary(pl):	Pasek ikon oparty na EFL
+Summary(pl.UTF-8):   Pasek ikon oparty na EFL
 Name:		iconbar
 Version:	0.9.1
 %define _snap	20050701
@@ -23,13 +23,13 @@ its icons. This allows for all sorts of animation and other effects.
 As of now, the included themes mimic the old iconbar behavior. Expect
 to see themes taking advantage of Edje's capabilities in the future.
 
-%description -l pl
+%description -l pl.UTF-8
 Jest to samodzielny pasek ikon oparty na pasku ikon e17 zrobionym
-przez raster i rephorm. W wersji 0.5 pasek ikon u¿ywa Edje zarówno dla
+przez raster i rephorm. W wersji 0.5 pasek ikon uÅ¼ywa Edje zarÃ³wno dla
 motywu, jak i ikon. Pozwala to na wszelkie rodzaje animacji i innych
-efektów. Jak na razie za³±czone motywy na¶laduj± stare zachowanie
-paska ikon, ale w przysz³o¶ci nale¿y siê spodziewaæ motywów
-wykorzystuj±cych przewagê mo¿liwo¶ci Edje.
+efektÃ³w. Jak na razie zaÅ‚Ä…czone motywy naÅ›ladujÄ… stare zachowanie
+paska ikon, ale w przyszÅ‚oÅ›ci naleÅ¼y siÄ™ spodziewaÄ‡ motywÃ³w
+wykorzystujÄ…cych przewagÄ™ moÅ¼liwoÅ›ci Edje.
 
 %prep
 %setup -q -n %{name}
