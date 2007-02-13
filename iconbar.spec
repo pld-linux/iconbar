@@ -1,5 +1,5 @@
 Summary:	EFL-enabled iconbar
-Summary(pl.UTF-8):   Pasek ikon oparty na EFL
+Summary(pl.UTF-8):	Pasek ikon oparty na EFL
 Name:		iconbar
 Version:	0.9.1
 %define _snap	20050701
